@@ -7,3 +7,5 @@ def bye():
 
 
 print(hello())
+
+# Testing self-hosted
