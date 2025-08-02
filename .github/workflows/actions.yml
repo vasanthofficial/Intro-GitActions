@@ -1,9 +1,13 @@
 ---
-name: Super-Linter
 
+name: Super-Linter
 on: push
 
+
 jobs:
+  build:
+    runs-on: self-hosted
+
   super-lint:
     name: Lint code base
     runs-on: ubuntu-latest
